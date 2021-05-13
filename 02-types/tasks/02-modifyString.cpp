@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 
+<<<<<<< Updated upstream
 void modifyString(std::string& str){
     str.replace(0, 4, "Other");
 }
