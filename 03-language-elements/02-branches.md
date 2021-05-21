@@ -37,7 +37,7 @@ A co w przypadku, gdy wiele informacji musi być spełnionych?
 Możemy połączyć warunki operatorem **lub** (`||`, `or`) bądź **i** (`&&`, `and`)
 
 ```cpp
-if (are_potatoes_eatten && is_meat_eatten && is_salad_eatten)
+if (are_potatoes_eaten && is_meat_eaten && is_salad_eaten)
 ```
 <!-- .element: class="fragment fade-in" -->
 
@@ -87,6 +87,7 @@ default:
 * `case` oznacza konkretny przypadek
 * `break` informuje, że wychodzimy z instrukcji warunkowej `switch` i kontynuujemy dalej program. Jego brak spowoduje, że wykonają się instrukcje z kolejnego `case`.
 * `default` jest to miejsce gdzie program dotrze, gdy żaden inny warunek nie zostanie spełniony
+* Zmienna sterująca instrukcją `switch/case` musi być typu liczbowego całkowitego czyli np. `int`, `char`, `long` etc. Może być także typu wyliczeniowegp `enum`, który także jest widziany przez program jako liczba całkowita
 
 ___
 
